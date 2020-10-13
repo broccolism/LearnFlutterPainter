@@ -8,10 +8,10 @@ class MyPainter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Lines"),
+        title: Text("Circle"),
       ),
       body: CustomPaint(
-        painter: ShapePainterByDrawPath(),
+        painter: CirclePainterByDrawPath(),
         child: Container(),
       ),
     );

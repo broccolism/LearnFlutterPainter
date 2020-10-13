@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ShapePainterByDrawLine extends CustomPainter {
+class LinePainterByDrawLine extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     var paint = Paint()
@@ -21,7 +21,7 @@ class ShapePainterByDrawLine extends CustomPainter {
   }
 }
 
-class ShapePainterByDrawPath extends CustomPainter {
+class LinePainterByDrawPath extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     var paint = Paint()
